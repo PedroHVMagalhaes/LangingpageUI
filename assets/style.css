@@ -24,6 +24,20 @@ header{
         color: #E0DAED;
     }
 
+        #cab1:hover{
+            cursor: pointer;
+            color: #9f7fdb;
+        }
+
+        #cab2:hover{
+            cursor: pointer;
+            color: #9f7fdb;
+        }
+        #cab3:hover{
+            cursor: pointer;
+            color: #9f7fdb;
+        }
+
     #logoCabecalho{
         margin: 1rem;
     }
@@ -56,7 +70,8 @@ header{
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 43px;
+        gap: 10px;
+        
     }
 
 
@@ -77,6 +92,18 @@ header{
         color: #E0DAED;
     }
 
+    #erroName{
+        color: red;
+        text-decoration: bolder;
+        margin-right: 250px;
+
+    }
+
+    #erroEmail{
+        color: red;
+        text-decoration: bolder;
+        margin-right: 250px;
+    }
     
     body #left #botao{
         display: flex;
@@ -115,6 +142,12 @@ header{
         line-height: 48px;
         letter-spacing: 0.05em;
     }
+
+    #botaoLeft, #botaoRight:hover{
+        cursor: pointer;
+    }
+
+    
 
     body #right{
         width: 50%;
